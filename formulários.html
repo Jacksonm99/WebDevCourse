@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulários</title>
+</head>
+<body>
+	<h2>Login</h2>
+	<form action="processa.php"> <!-- "ACTION"= define para onde enviar dados do formulário-->
+		Usuário:<br>
+		<input type="text" name="Usuário"><br>
+		Senha:<br>
+		<input type="password" name="Senha">
+		<input type="submit" value="Entrar"><br>
+		<!-- SUBMIT= ENVIAR DADOS DO FOMULÁRIO-->
+		<!-- VALUE = NOME DO BOTÃO-->
+
+	</form>
+	<form>
+	<h2>Cadastre-se</h2>
+	Nome completo:<input type="text" name="Nome"><br><br>
+	Sexo:<br>
+	<input type="radio" name="Sexo" value=" Masculino">  Masculino<br> <!-- colocar o mesmo name nos "radio buttons" para que possam alternar assim que selecionados-->
+	<input type="radio" name="Sexo" value="Feminino"> Feminino<br>
+	<input type="radio" name="Sexo" value="Outro"> Outro<br>
+	<br>
+	Habilidades<br>
+	<input type="checkbox" name="Habilidades">C++
+	<br>			
+	<input type="checkbox" name="Habilidades">Java
+	<br>			
+	<input type="checkbox" name="Habilidades">HTML
+	<br>			
+	<input type="checkbox" name="Habilidades">CSS
+	<br>			
+	<input type="checkbox" name="Habilidades">JavaScript
+	<br>
+	<br>
+	Estado<br>
+	<select name="Estado">
+		<option value="PE">PE</option>
+		<option value="PB">PB</option>
+		<option value="CE">CE</option>
+		<option value="BA">BA</option>
+		<option value="RN">RN</option>
+	</select><br><br>
+	Observações: <br>
+	<textarea></textarea>
+	<br>
+	<input type="submit" value="Cadastrar">
+	<br>
+	</form>
+
+</body>
+</html>
