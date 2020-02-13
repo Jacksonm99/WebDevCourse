@@ -1,0 +1,11 @@
+.fundo{
+	background-image: url(fundoAB.png);
+}
+.menu{
+	font: #34355D;
+	background-color: #C5C8A4;
+}
+.texto{
+	background-color: #F8F8F4;
+	font-family:  monospace,Andale Mono;
+}
