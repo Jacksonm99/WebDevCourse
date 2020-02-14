@@ -2,10 +2,18 @@
 	background-image: url(fundoAB.png);
 }
 .menu{
+	width: 900px;
 	font: #34355D;
 	background-color: #C5C8A4;
+	font-size: 16px;
 }
 .texto{
+	width: 900px;
 	background-color: #F8F8F4;
 	font-family:  monospace,Andale Mono;
+}
+.rodape{
+	width: 900px;
+	font-family:  monospace,Andale Mono;
+	font size: 16px;
 }
